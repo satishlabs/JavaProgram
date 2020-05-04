@@ -8,6 +8,9 @@ public class App {
 		myConuter.increment();
 		myConuter.increment();
 		
+		//We can access doSomething() method , because its private method inside counter class
+		//myConuter.doSomething()
+		
 		System.out.println(myConuter.getCurrentValue());
 	}
 }
