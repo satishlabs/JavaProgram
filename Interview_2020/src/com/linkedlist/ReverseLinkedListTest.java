@@ -43,7 +43,7 @@ public class ReverseLinkedListTest {
 	public void printList(Node head) {
 		Node temp = head;
 		while(temp != null) {
-			System.out.println("[ "+temp.data+" ]");
+			System.out.print("[ "+temp.data+" ]");
 			temp = temp.next;
 		}
 		

@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class PairsOfElementsInArray {
 	public static void main(String[] args) {
 		findThePairs(new int[] {4, 6, 5, -10, 8, 5, 20, 2}, 10);
+		findThePairs(new int[] { 2, 3, 4, -2, 6, 8, 9, 11 },6);
 	}
 
 	static void findThePairs(int inputArray[], int inputNumber)

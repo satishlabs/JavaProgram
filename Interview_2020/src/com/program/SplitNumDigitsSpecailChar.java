@@ -19,7 +19,6 @@ public class SplitNumDigitsSpecailChar {
 			}else {
 				specialChar.append(str.charAt(i));
 			}
-			
 		}
 		System.out.println("Aplhanumeric: "+alpha);
 		System.out.println("Digits: "+digits);
