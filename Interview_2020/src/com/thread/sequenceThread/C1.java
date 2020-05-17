@@ -12,7 +12,7 @@ public class C1 extends Thread{
 			synchronized (notifyAllExample) {
 				for(int i=0;i<5;i++) {
 					while(notifyAllExample.status != 3) {
-						notifyAllExample.wait(1000);
+						notifyAllExample.wait();
 					}
 					System.out.println("C");
 					notifyAllExample.status = 1;
