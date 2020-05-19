@@ -3,6 +3,8 @@ package com.string;
 public class Test {
 	public static void main(String[] args) {
 		String str="Satish";
+		String str1 = "AB";
+		 System.out.println(str1.hashCode());
 		char arr[] = str.toCharArray();
 		StringBuffer sb = new StringBuffer();
 		
