@@ -127,20 +127,5 @@ public class StreamTest {
 		System.out.println("After filter and conditional sorting :");
 		list.forEach(s -> System.out.println(s.getName()));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	}
 }
