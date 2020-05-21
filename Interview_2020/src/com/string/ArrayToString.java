@@ -5,9 +5,6 @@ import java.util.List;
 import java.util.StringJoiner;
 import java.util.stream.Collectors;
 
-import org.apache.commons.lang3.StringUtils;
-import com.google.common.base.Joiner;
-
 
 public class ArrayToString {
 	public static void main(String[] args) {
