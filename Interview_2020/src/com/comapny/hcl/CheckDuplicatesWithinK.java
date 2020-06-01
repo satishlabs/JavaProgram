@@ -1,10 +1,11 @@
 package com.comapny.hcl;
 
 import java.util.HashSet;
+//Check if a given array contains duplicate elements within k distance from each other
 
 public class CheckDuplicatesWithinK {
 	public static void main(String[] args) {
-		int arr[] = {2, 4, 3, 2, 4, 3,5};
+		int arr[] ={10, 5, 3, 4, 3, 5, 6};
 		if(checkDuplicatesWithinK(arr,3)) {
 			System.out.println("Yes");
 		}else {
