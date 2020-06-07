@@ -19,6 +19,7 @@ public class SortMapByKeys {
 		map.put("Data Structure", "Kapil");
 		map.put("Java", "Manish");
 		map.put("Operating System", "test");
+		map.put("Aperating System", "Abhi");
 		map.put("Networking", "Kundan");
 		
 		/*map.forEach((k,v)->{

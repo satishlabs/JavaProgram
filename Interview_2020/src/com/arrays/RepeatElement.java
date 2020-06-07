@@ -12,8 +12,8 @@ public class RepeatElement {
 	public static void main(String[] args) {
 		Integer arr[] ={4,2,4,5,2,3,4,1};
 		Integer arr_size = arr.length;
-		//printRepeatedNumber1(arr);
-		printRepeatedNumber2(arr);
+		printRepeatedNumber1(arr);
+		//printRepeatedNumber2(arr);
 		//printRepeatedNumber(arr,arr_size);
 		
 		//Arrays.stream(arr).distinct().forEach(x -> System.out.println(x+" repeated "+Collections.frequency(Arrays.asList(arr), x)+" times."));
@@ -43,7 +43,8 @@ public class RepeatElement {
 		int count=0;
 		int temp=0;
 		Arrays.sort(arr);
-		for(int i=0;i<arr.length;i++) {
+		int i;
+		for(i=0;i<arr.length;i++) {
 			temp = arr[i];
 			count=0;
 			for(int j=0;j<arr.length;j++) {
@@ -51,9 +52,9 @@ public class RepeatElement {
 					count++;
 				}
 			}
-			 System.out.println("Number:" + arr[i] + "repeated :" + count + " times");
+	
 		}
-		
+		 System.out.println("Number:" + arr[i] + "repeated :" + count + " times");
 	}
 
 

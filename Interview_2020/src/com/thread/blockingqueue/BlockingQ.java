@@ -10,8 +10,8 @@ public class BlockingQ {
 		dqueue.addLast("2");
 			
 		dqueue.put("3");
+		dqueue.put("4");
 	
-		
 		System.out.println("Put: "+dqueue);
 		
 		dqueue.take();

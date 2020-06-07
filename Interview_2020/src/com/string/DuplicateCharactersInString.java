@@ -22,7 +22,7 @@ public class DuplicateCharactersInString {
 		System.out.println("Duplicate characters in String");
 		for(char ch: charsInString){
 			if(charCountMap.get(ch)>1){
-				System.out.println(ch+" : "+charCountMap.get(ch));
+				System.out.println(ch+" repeated "+charCountMap.get(ch)+" times");
 			}
 		}
 	}

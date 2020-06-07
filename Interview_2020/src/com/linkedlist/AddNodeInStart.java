@@ -11,28 +11,26 @@ public class AddNodeInStart {
 			next = null;
 		}
 		
-		public void displayNode(){
-			System.out.print("["+ data +"]");
 		}
-	}
 	
 	public static void main(String[] args) {
 		AddNodeInStart list = new AddNodeInStart();
 		list.add(3);
 		list.add(6);
 		list.add(1);
+		list.displayNode();
 		
 	}
-	public void add(int i) {
-		Node last= new Node(i);
-		if(head ==null){
-			System.out.println("Empty List");
-			
-		}
+	private void displayNode() {
 		Node temp = head;
-		if(temp.next != null){
+		while(temp != null) {
+			System.out.print("[ "+temp.data+" ]");
 			temp = temp.next;
 		}
-		temp.next = last.next;
+	}
+	public void add(int data) {
+		Node temp = new Node(data);
+		temp.next = head;
+		head = temp;
 	}
 }

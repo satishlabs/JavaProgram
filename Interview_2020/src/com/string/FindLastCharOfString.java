@@ -17,7 +17,7 @@ public class FindLastCharOfString {
   
                 // Then previous character must be 
                 // the last character of some word 
-                System.out.print(str.charAt(i - 1) + " "); 
+                System.out.println(str.charAt(i - 1) + " "); 
         } 
 	}
 }

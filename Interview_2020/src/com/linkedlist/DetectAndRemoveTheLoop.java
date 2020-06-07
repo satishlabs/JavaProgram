@@ -22,6 +22,7 @@ public class DetectAndRemoveTheLoop {
 		head.next.next.next.next.next = head.next.next;
 	
 		 list.detectAndRemoveLoop(head); 
+		 System.out.println("=================================");
 		 System.out.println("Linked List after removing loop : ");
 		 list.printNode(head);
 	}
@@ -33,6 +34,7 @@ public class DetectAndRemoveTheLoop {
 			fast = fast.next.next;
 			
 			if(slow == fast) {
+				System.out.println("Loop detected");
 				removeLoop(slow,head);
 				return 1;
 				

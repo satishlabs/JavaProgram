@@ -49,7 +49,6 @@ public class LiknkedListIsPalindrome {
 		Node slow = head;
 		boolean isPlain = true;
 		Stack<Integer> stack = new Stack<Integer>();
-
 		while(slow != null) {
 			stack.push(slow.data);
 			slow = slow.next;

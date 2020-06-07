@@ -9,7 +9,7 @@ public class FirstChar {
 	private static void firstChar(String str) {
 		String[] strArr = str.split(" ");
 		for(String  s: strArr) {
-			System.out.print(s.charAt(0)+" "); 
+			System.out.println(s+" : "+s.charAt(0)+" "); 
 			
 			
 		}
