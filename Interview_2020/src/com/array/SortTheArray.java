@@ -2,7 +2,7 @@ package com.array;
 
 public class SortTheArray {
 	public static void main(String[] args) {
-		int[] arr = {1,0,2,1,2,0,1,0,1};
+		int[] arr = {1,0,2,1,2,0,1,0,1,-1,-2};
 		 sort(arr, arr.length);
 		 for(int i=0;i<arr.length;i++) {
 			 System.out.print(arr[i]+" ");

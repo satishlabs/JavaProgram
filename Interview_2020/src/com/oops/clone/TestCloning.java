@@ -5,7 +5,6 @@ public class TestCloning {
 		Department dept = new Department(1, "Human Resource");
 		Employee emp1 = new Employee(11, "Satish", dept);
 			
-		
 
         //Lets create a clone of original object emp1
 		Employee emp2 = (Employee) emp1.clone();
