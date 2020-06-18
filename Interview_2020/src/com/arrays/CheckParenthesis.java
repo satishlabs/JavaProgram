@@ -27,7 +27,6 @@ public class CheckParenthesis {
 			return true;
 		if(n == 1)
 			return false;
-		
 		if(expr[0] == ')' || expr[0]=='}' ||expr[0] ==']')
 		   return false;
 		  // Search for closing bracket for first 
