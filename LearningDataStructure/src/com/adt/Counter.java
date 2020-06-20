@@ -4,10 +4,8 @@ public class Counter {
 	private String name=null;
 	private int value=0;
 	
-	private void doSomething() {
-		
+	private void doSomething() {	
 	}
-	
 	public Counter(String str) {
 		this.name = str;
 	}
@@ -17,8 +15,7 @@ public class Counter {
 	}
 	
 	public int getCurrentValue(){
-		return value;
-		
+		return value;	
 	}
 
 	@Override
