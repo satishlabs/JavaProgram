@@ -6,7 +6,6 @@ public class App {
 		int key=7;
 		System.out.println(linearSearch(arr,key));
 	}
-	
 	public static int linearSearch(int[] arr,int x) {
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]==x) {
