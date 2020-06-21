@@ -26,7 +26,6 @@ public class BookCollection {
 		Collections.sort(bookCollection, priceCompare);
 		System.out.println(bookCollection);
 	}
-	
 	private boolean add(Book bookToAdd) {
 		boolean flag = true;
 		if(bookCollection.isEmpty()) {
