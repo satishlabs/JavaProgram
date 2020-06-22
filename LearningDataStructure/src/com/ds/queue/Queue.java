@@ -34,7 +34,6 @@ public class Queue {
 		nItems--;
 		return temp;
 	}
-	
 	public long peekFront(){
 		return queArray[front];
 	}
