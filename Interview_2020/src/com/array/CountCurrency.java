@@ -10,8 +10,6 @@ public class CountCurrency {
 			}else {
 				System.out.println("InValid Entry");
 			}
-		
-        
 	}
 
 	private static void countCurrency(int amount) {
