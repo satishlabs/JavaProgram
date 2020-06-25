@@ -1,11 +1,9 @@
 package com.thread.CyclicBarrier;
 
-import java.util.concurrent.CyclicBarrier;
-
 public class Test {
 	public static void main(String[] args) {
 		
-		CyclicBarrier cyclicBarrier = new CyclicBarrier(parties);
+	
 		
 		CountDown countDown = new CountDown(3);
 		ThreadDemo t1 = new ThreadDemo(countDown);
