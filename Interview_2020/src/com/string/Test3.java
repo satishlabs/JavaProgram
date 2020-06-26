@@ -7,6 +7,9 @@ public class Test3 {
 		String s3=s1;
 		String s4 = new String("Hello");
 		
+		String s9= s2.intern();
+		System.out.println("Intern : "+(s9==s4));
+		
 		System.out.println(s1.equals(s2));
 		System.out.println(s1==s2);
 		
@@ -15,10 +18,6 @@ public class Test3 {
 		
 		System.out.println(s3==s4);
 		System.out.println(s1.equals(s4));
-		
-	
-		
-		
 		
 		String s5= new String("Hello World");
 		String s6 = new String("Hello World");
