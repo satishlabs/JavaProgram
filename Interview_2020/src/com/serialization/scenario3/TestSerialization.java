@@ -15,7 +15,7 @@ be executed during serialization/deserializatin.
 
 public class TestSerialization {
 	public static void main(String[] args) {
-		B obj = new B();
+		B obj = new B(10,20);
 		try {
 			FileOutputStream fos = new FileOutputStream("E:/File/TestWS.txt");
 			ObjectOutputStream oos = new ObjectOutputStream(fos);

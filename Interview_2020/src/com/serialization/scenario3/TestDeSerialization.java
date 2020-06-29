@@ -7,7 +7,7 @@ import java.io.ObjectInputStream;
 
 public class TestDeSerialization {
 	public static void main(String[] args) {
-		B obj = new B();
+		B obj = new B(10,20);
 		try {
 			FileInputStream fis = new FileInputStream("E:/File/TestWS.txt");
 			ObjectInputStream ois = new ObjectInputStream(fis);
@@ -21,7 +21,5 @@ public class TestDeSerialization {
 		}
 	}
 	// implementing readObject method,   
-	private void readObject(ObjectInputStream in) throws IOException { 
-	   throw new NotSerializableException(); 
-	}
+	
 }
