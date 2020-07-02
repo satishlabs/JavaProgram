@@ -21,6 +21,7 @@ public class PassengerThread extends Thread{
 			int await = barrier.await();
 			if(await == 0) {
 				System.out.println("Two passenger have arrived, so cab is going to start.");
+				System.out.println("======================================================");
 			}
 		}catch (InterruptedException | BrokenBarrierException e) {
 			e.printStackTrace();

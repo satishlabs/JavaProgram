@@ -11,11 +11,13 @@ public class ClientTest {
 		
 		PassengerThread p1 = new PassengerThread(1000, barrier, "Satish");
 		PassengerThread p2 = new PassengerThread(2000, barrier, "MsDhoni");
+		
 		PassengerThread p3 = new PassengerThread(3000, barrier, "Virat");
 		PassengerThread p4 = new PassengerThread(4000, barrier, "Rohit");
 		
 		PassengerThread p5 = new PassengerThread(5000, barrier, "Bumrah");
 		PassengerThread p6 = new PassengerThread(6000, barrier, "Sachin");
+		
 		PassengerThread p7 = new PassengerThread(7000, barrier, "KLRahul");
 		PassengerThread p8 = new PassengerThread(8000, barrier, "Sikhar");
 		
