@@ -56,6 +56,6 @@ public class MaxRepeated {
 				max = count;
 			}
 		}
-		System.out.println(max);
+		System.out.println("Max: "+max);
 	}
 }

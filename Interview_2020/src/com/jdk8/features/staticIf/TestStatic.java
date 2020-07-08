@@ -2,7 +2,7 @@ package com.jdk8.features.staticIf;
 
 interface InterfaceName{
 	static void method1() {
-		System.out.println("Method1 from interfaceName");
+		System.out.println(" static method1 from interfaceName");
 	}
 }
 
