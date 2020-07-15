@@ -16,8 +16,7 @@ class BT extends AT{
 	}
 }
 
-static int fun() {
-	
+static int fun() {	
 }
 
 public class Test9 {
@@ -32,7 +31,7 @@ public class Test9 {
 	public void add(Object a) {
 		System.out.println(a);
 	}
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		Test9 t = new Test9();
 		t.add(10);
 		//t.add(10);

@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class DuplicateCharactersInString {
 	public static void main(String[] args) {
-		duplicateCharCount("JavaJ2EE");
+		duplicateCharCount("JavaJ2EEa");
 	}
 
 	public static void duplicateCharCount(String inputStr) {

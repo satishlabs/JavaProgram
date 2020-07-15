@@ -9,8 +9,6 @@ public final class User {
 	private final String lastname;
 	private final ArrayList<Address> addressList;
 	
-	
-	
 	public User(String firstname, String lastname, ArrayList<Address> addressList) {
 		this.firstname = firstname;
 		this.lastname = lastname;
