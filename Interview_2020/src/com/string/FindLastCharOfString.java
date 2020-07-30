@@ -2,7 +2,7 @@ package com.string;
 
 public class FindLastCharOfString {
 	public static void main(String[] args) {
-		String str = " hello Satish Prasad";
+		String str = "hello Satish Prasad";
 		findLastChar(str);
 		
 	}

@@ -16,7 +16,7 @@ public class ExceptionTest {
 			 */
 		finally {
 			System.out.println("Return - 3");
-			return 3;
+			return 4;
 		}
 	}
 	public static void main(String[] args) {

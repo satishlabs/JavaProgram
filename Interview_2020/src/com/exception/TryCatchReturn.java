@@ -19,5 +19,6 @@ public class TryCatchReturn {
 	
 	public static void main(String[] args) {
 		TryCatchReturn obj = new TryCatchReturn();
+		System.out.println(obj.calc());
 	}
 }

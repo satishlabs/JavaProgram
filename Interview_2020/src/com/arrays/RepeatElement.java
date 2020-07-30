@@ -12,8 +12,8 @@ public class RepeatElement {
 	public static void main(String[] args) {
 		Integer arr[] ={4,2,4,5,2,3,4,1};
 		Integer arr_size = arr.length;
-		printRepeatedNumber1(arr);
-		//printRepeatedNumber2(arr);
+		//printRepeatedNumber1(arr);
+		printRepeatedNumber2(arr);
 		//printRepeatedNumber(arr,arr_size);
 		
 		//Arrays.stream(arr).distinct().forEach(x -> System.out.println(x+" repeated "+Collections.frequency(Arrays.asList(arr), x)+" times."));

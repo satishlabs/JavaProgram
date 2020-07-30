@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class FindFirstRepeatedElements {
 	public static void main(String[] args) {
-		 int arr[] = {2,10, 3, 5, 3, 4, 3, 5, 6, 2}; 
+		 int arr[] = {2,10, 3, 5, 2, 3, 4, 3, 5, 6}; 
 	        printFirstRepeating(arr);
 	}
 

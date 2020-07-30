@@ -15,7 +15,7 @@ public class TryCatchReturn3 {
 			return 1;
 		}
 		System.out.println("End of the method");
-		//return 0
+		//return 0;
 	}
 	public static void main(String[] args) {
 		TryCatchReturn3 obj = new TryCatchReturn3();
