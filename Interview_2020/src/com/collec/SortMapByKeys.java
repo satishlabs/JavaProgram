@@ -37,13 +37,9 @@ public class SortMapByKeys {
 		
 		 Map<Integer, String> sortedMap = sortByValues(map); 
 		 System.out.println("After Sorting:");
-	      Set set2 = sortedMap.entrySet();
-	      Iterator iterator2 = set2.iterator();
-	      while(iterator2.hasNext()) {
-	           Map.Entry me2 = (Map.Entry)iterator2.next();
-	           System.out.print(me2.getKey() + ": ");
-	           System.out.println(me2.getValue());
-	      }
+	     for(Map.Entry<Integer, String>entry : sortedMap.entrySet()) {
+	    	 System.out.println(entry.getKey()+" "+entry.getValue());
+	     }
 	}
 
 	public static Map<Integer, String> sortByValues(Map<String, String> map) {

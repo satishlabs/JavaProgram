@@ -7,7 +7,7 @@ public class Employee implements Serializable{
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 2L;
+	private static final long serialVersionUID = 3L;
 	private int id;
 	private String name;
     transient private byte age;
