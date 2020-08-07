@@ -8,9 +8,24 @@ public class Student {
     private String name;
 
 	public Student(Integer id, String name) {
-		super();
 		this.id = id;
 		this.name = name;
+	}
+	
+	@Override
+	public int hashCode() {
+		
+		return 10;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return false;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + "]";
 	} 
   
     
