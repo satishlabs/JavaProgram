@@ -18,7 +18,7 @@ public class RearrangeOddEAndven {
 		list.push(3);
 		list.push(4);
 		list.push(5);
-		list.push(6);
+		//list.push(6);
 		
 	
 		//printNode
@@ -39,7 +39,7 @@ public class RearrangeOddEAndven {
 		Node even = head.next;
 		Node evenHead = even;
 		
-		while(odd.next != null && even.next != null) {
+		while(even != null && even.next != null) {
 			odd.next = even.next;
 			odd = odd.next;
 			even.next = odd.next;

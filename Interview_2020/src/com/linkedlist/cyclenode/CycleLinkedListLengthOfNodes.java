@@ -22,7 +22,7 @@ public class CycleLinkedListLengthOfNodes {
         /*Create loop for testing */
         llist.head.next.next.next.next = llist.head; 
   
-        llist.detectLoop(); 
+       // llist.detectLoop(); 
         
         
         System.out.println(llist.detectLoop());
