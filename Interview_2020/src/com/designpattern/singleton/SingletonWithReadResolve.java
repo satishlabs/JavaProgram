@@ -19,4 +19,11 @@ public class SingletonWithReadResolve implements Serializable{
     { 
         return instance; 
     } 
+    
+    public static SingletonWithReadResolve getInstance() {
+    	if(null == instance) {
+    		instance = new SingletonWithReadResolve();
+    	}
+    	return instance;
+    }
 }

@@ -10,7 +10,7 @@ import java.io.ObjectOutputStream;
 public class PreventSingletonWithSerializable1 {
 	public static void main(String[] args) {
 		try {
-			SingletonWithReadResolve instance1 = SingletonWithReadResolve.instance;
+			SingletonWithReadResolve instance1 = SingletonWithReadResolve.getInstance();
 			
 			//Serialization
 			FileOutputStream fos = new FileOutputStream("E://File//Serializable");
@@ -26,6 +26,7 @@ public class PreventSingletonWithSerializable1 {
 			
 			System.out.println("instacne1.hashCode: "+instance1.hashCode());
 			System.out.println("instacne2.hashcode: "+instance2.hashCode());
+			
 		}catch (Exception e) {
 			e.printStackTrace();
 		}

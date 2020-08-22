@@ -2,7 +2,8 @@ package com.program.aggre;
 
 public class ClientTest {
 	public static void main(String[] args) {
-		//aggregationDemo();
+		aggregationDemo();
+		System.out.println("++++++++++++++++++++++++++++++++++++");
 		compositionDemo();
 	}
 	

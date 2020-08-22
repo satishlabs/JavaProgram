@@ -13,7 +13,14 @@ public class SingletonWithClone extends SuperClass{
 	 */
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
-		//return super.clone(); // to prevent cloning for singleton retrunn instance here
+		//return super.clone(); // to prevent cloning for singleton retrun instance here
+		return instance;
+	}
+	
+	public static SingletonWithClone getInstance() {
+		if(null == instance) {
+			instance = new SingletonWithClone();
+		}
 		return instance;
 	}
 }
