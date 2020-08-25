@@ -11,6 +11,7 @@ public class Student implements Serializable{
 	
 	int id;
 	String sname;
+	private String addedField;
 	transient String email; //not serialized
 	transient long phone; //not serialized
 	static int passMarks; //not serialized
