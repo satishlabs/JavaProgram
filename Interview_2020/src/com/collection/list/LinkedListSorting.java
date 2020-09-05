@@ -30,6 +30,9 @@ public class LinkedListSorting {
 			}
 		});
 		System.out.println("LinkedList (after sorting using Comparator): " + singlyLinkedList);
-
+		System.out.println("----------------------");
+		// Example 3 - Sorting LinkedList using Collection.sort() and Comparator in Java8
+		singlyLinkedList.sort((o1, o2) -> o1.compareToIgnoreCase(o2));
+		singlyLinkedList.forEach(lt -> System.out.println(lt));
 	}
 }
