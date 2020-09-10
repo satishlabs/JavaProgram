@@ -4,7 +4,7 @@ public class ClientTest {
 	public static void main(String[] args) {
 		aggregationDemo();
 		System.out.println("++++++++++++++++++++++++++++++++++++");
-		compositionDemo();
+		//compositionDemo();
 	}
 	
 	//Is-A

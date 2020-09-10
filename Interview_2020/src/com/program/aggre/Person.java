@@ -40,7 +40,6 @@ public class Person {
 		return address;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Person [pid=" + pid + ", firstname=" + firstname + ", lastname=" + lastname + ", address=" + address

@@ -3,7 +3,7 @@ package com.string;
 public class LongestPalinSubstring {
 	public static void main(String[] args) {
 		String str="dabcba";
-		//String str = "forgeeksskeegfor"; 
+		// str = "forgeeksskeegfor"; 
 		System.out.println(isPalindrome(str));
 	}
 

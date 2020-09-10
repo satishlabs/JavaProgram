@@ -6,8 +6,10 @@ public class AnagramProgram {
 	public static void main(String[] args) {
 		isAnagram("keEp", "peeK");
 		isAnagram("Satish", "ishs");
-		isAnagram("Toss", "Shot");
+		isAnagram("Toss", "ssoT");
 	}
+
+
 
 	public static void isAnagram(String s1, String s2) {
 		String copyOfS1 = s1.replaceAll("\\s", "");	
