@@ -9,6 +9,7 @@ public class Student {
 	private Address address;
 	private List<MobileNumber> mobileNumbers;
 	
+	public Student() {}
 	public Student(String name, int age, Address address, List<MobileNumber> mobileNumbers) {
 		this.name = name;
 		this.age = age;
