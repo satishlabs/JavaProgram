@@ -13,12 +13,13 @@ public class RemoveDuplicateNode {
 	}
 	public static void main(String[] args) {
 		RemoveDuplicateNode llist = new RemoveDuplicateNode();
+		llist.push(11); 
 		llist.push(20); 
         llist.push(13); 
+        llist.push(11); 
         llist.push(13); 
         llist.push(11); 
-        llist.push(11); 
-        llist.push(11); 
+      
 		
 		System.out.println("Print all Nodes");
 		llist.printList(head);

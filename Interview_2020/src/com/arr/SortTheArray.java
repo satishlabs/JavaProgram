@@ -1,5 +1,9 @@
 package com.arr;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class SortTheArray {
 	public static void main(String[] args) {
 		int[] arr = {1,0,2,1,2,0,1,0,1,-1,-2};
@@ -7,6 +11,9 @@ public class SortTheArray {
 		 for(int i=0;i<arr.length;i++) {
 			 System.out.print(arr[i]+" ");
 		 }
+		 System.out.println("==================");
+		 List<int[]> numList = Arrays.asList(arr);
+		 numList.stream().sorted().collect(Collectors.toList()).forEach(System.out::println);
 	}
 
 	private static void sort(int[] arr, int n) {
