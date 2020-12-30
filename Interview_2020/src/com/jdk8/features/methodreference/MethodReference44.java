@@ -27,8 +27,8 @@ public class MethodReference44 {
 		Float result2 = adder2.apply(10, 20.9f);
 		System.out.println(result2);
 		
-		BiFunction<Integer, Float, Float> adder3 = Arithmetic1::add;
-		Float result3 = adder3.apply(10, (float) 20.5);
+		BiFunction<Float, Float, Float> adder3 = Arithmetic1::add;
+		Float result3 = adder3.apply(10.0f, 20.5f);
 		System.out.println(result3);
 	}
 }

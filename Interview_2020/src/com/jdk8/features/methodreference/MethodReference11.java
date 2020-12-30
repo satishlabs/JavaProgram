@@ -8,7 +8,10 @@ public class MethodReference11 {
 	}
 	
 	public static void main(String[] args) {
+		//Referring static method
 		sayable11 sayable11 = MethodReference11::saysomething;
+		
+		//Calling interface method
 		sayable11.say11();
 	}
 }
