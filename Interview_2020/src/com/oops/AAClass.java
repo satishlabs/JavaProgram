@@ -14,8 +14,9 @@ public class AAClass {
 	}
 
 	public static void parse(String str) {
+		float f = 0.0f;
 		try {
-			float f = Float.parseFloat(str);
+			 f = Float.parseFloat(str);
 		}catch (NumberFormatException e) {
 			f=0;
 		}finally {

@@ -14,7 +14,7 @@ public class CountCurrency {
 
 	private static void countCurrency(int amount) {
 		int[] notes = new int[] {2000,500,200,100,50,20,10,5,2,1};
-		int[] noteCounter = new int[10];
+		int[] noteCounter = new int[notes.length];
 		
 		for(int i=0;i<10;i++) {
 			if(amount >= notes[i]) {
