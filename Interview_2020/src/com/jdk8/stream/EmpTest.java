@@ -2,6 +2,7 @@ package com.jdk8.stream;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class EmpTest {
@@ -20,6 +21,18 @@ public class EmpTest {
 					.filter(e->e.getAge()>30)
 					.count();
 		System.out.println("Emp Count age>30 :"+count);
+		
+		System.out.println();
+		System.out.println("======================================");
+		Optional<Employee> emp = empList.stream().filter(e->e.getName().equalsIgnoreCase("Dhoni")).findAny();
+		if(emp.isPresent()) {
+			System.out.println(emp.get());
+		}
+		
+		System.out.println();
+		System.out.println("======================================");
+		
+		
 	}
 	
 	public static List<Employee> createEmpList(){
