@@ -37,6 +37,10 @@ public class EmpTest {
 			System.out.println("Max age of emp: "+maxAge);
 		}
 		
+		System.out.println();
+		System.out.println("======================================");
+		empList.sort((e1,e2)->e1.getAge()-e2.getAge());
+		empList.forEach(System.out::println);
 	}
 	
 	public static List<Employee> createEmpList(){
