@@ -12,5 +12,11 @@ public class RemoveDuplicatesFromListMain {
 		
 		Set<Integer> setWithoutDups =listWithDuplicates.stream().collect(Collectors.toSet()); 
 		setWithoutDups.forEach(s->System.out.print(s+" "));
+		
+		System.out.println();
+		System.out.println("==================================");
+		
+		List<Integer> listWithoutDups = listWithDuplicates.stream().distinct().collect(Collectors.toList());
+		listWithoutDups.forEach(l->System.out.print(l+" "));
 	}
 }
