@@ -2,6 +2,7 @@ package com.jdk8.stream;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.OptionalInt;
 import java.util.stream.Collectors;
@@ -52,6 +53,9 @@ public class EmpTest {
 		
 		System.out.println();
 		System.out.println("======================================");
+		Map<String, List<Employee>> map = empList.stream()
+					.collect(Collectors.groupingBy(Employee::getName));
+		map.forEach((name,empListTemp)->System.out.println("Name: "+name+" => "+empListTemp));
 	}
 	
 	public static List<Employee> createEmpList(){
